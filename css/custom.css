@@ -1,0 +1,206 @@
+.uk-navbar-left .uk-navbar-item a {
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 400px !important;
+}
+
+.uk-navbar-right .uk-navbar-item .uk-border-rounded {
+    border-color: rgb(50, 153, 250) !important;
+    color: rgb(50, 153, 250);
+    font-weight: bold;
+}
+
+.uk-navbar-right .uk-navbar-item a:hover {
+    background-color: rgb(197, 246, 255);
+    border-color: rgb(50, 153, 250) !important;
+    color: rgb(50, 153, 250);
+    transition: .5s ease-in-out;
+}
+
+.uk-custom-bold {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.uk-custom-text-grey {
+    color: #999 !important;
+}
+
+.sc-pos {
+    position: absolute;
+    height: 100%;
+}
+
+.sc-pos img {
+    float: inherit;
+    width: 500px;
+}
+
+.position {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.uk-custom-bg-gradient {
+    color: #fff;
+    background: radial-gradient(circle at top left, #5073f6, #643bc3);
+}
+
+.uk-bg-image-1 {
+    background-image: url('/src/img/ui-ux-designer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.uk-bg-image-2 {
+    background-image: url('/src/img/web-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.uk-bg-image-3 {
+    background-image: url('/src/img/wedding.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.uk-custom-text-white {
+    color: #fff;
+}
+
+.uk-custom-margin-bottom {
+    margin-bottom: 80px !important;
+}
+
+.uk-custom-zoom:hover {
+    transform: scale(1.2);
+    transition: .5s ease-in-out;
+    color: #fff;
+}
+
+.uk-custom-zoom-card:hover {
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+    color: #fff;
+}
+
+.uk-custom-zoom-card:hover .uk-position-center {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: radial-gradient(circle at top left, #5073f6, #643bc3);
+    transition: .5s ease-in-out;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.uk-custom-zoom a:hover {
+    color: #fff;
+}
+
+.uk-text-span {
+    position: absolute;
+    top: 550px;
+    width: 13%;
+    color:rgb(238, 0, 0);
+}
+
+.uk-custom-text h2,
+.uk-custom-text h3,
+.uk-custom-text hr {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.uk-custom-text p {
+    font-weight: 400px !important;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 640px) {
+    .uk-width-1-6 {
+        width: 50% !important;
+        padding-bottom: 30px;
+    }
+
+    .uk-width-1-3 {
+        width: 100% !important;
+        padding-bottom: 100px;
+    }
+
+    .uk-custom-zoom-card:hover {
+        transform: none;
+    }
+
+    .uk-custom-text {
+        text-align: center;
+    }
+
+    .in-sc-4 h2, 
+    .in-sc-4 p {
+        text-align: center;
+    }
+
+    .uk-width-2-3 {
+        width: 100% !important;
+    }
+}
+.uk-custom-height {
+    height: 300px;
+}
+
+.uk-image-height {
+    height: 260px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.uk-image-height {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.uk-custom-padding-bottom {
+    padding-bottom: 35px;
+}
+
+.uk-custom-rst-pd {
+    top: 10px;
+}
+
+.uk-custom-image {
+    width: 50%;
+    height: 90%;
+}
+
+.uk-custom-image-testimoni {
+    width: 50%;
+    height: 50%;
+}
+
+/* Scroll To Top Button */
+#myBtn {
+    visibility: hidden;
+    color: white;
+    padding-left: 10px;
+    background-color: #d65b5b;
+    border: 1px solid #d65b5b;
+    border-radius: 5px 0px 0px 5px;
+    height: 40px;
+    width: 150px;
+    position: fixed;
+    z-index: 9999;
+    float: right;
+    right: -121px;
+    bottom: 8%;
+    transition: right 0.3s;
+}
+
+#myBtn i {
+    padding-top: 10px;
+}
