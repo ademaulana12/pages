@@ -45,21 +45,21 @@
 }
 
 .uk-bg-image-1 {
-    background-image: url('/src/img/ui-ux-designer.jpg');
+    background-image: url('../img/ui-ux-designer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
 }
 
 .uk-bg-image-2 {
-    background-image: url('/src/img/web-design.jpg');
+    background-image: url('../img/web-design.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
 }
 
 .uk-bg-image-3 {
-    background-image: url('/src/img/wedding.jpg');
+    background-image: url('../img/wedding.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
